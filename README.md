@@ -20,14 +20,14 @@ survey.pdf:<br>
 ## 3.1. 前処理
 　入力画像に二値フィルタ，メディアンフィルタを用いて前処理を行う．閾値やカーネルサイズは入力画像に対して最適化された値を利用する．<br>
 <p align="center">
- <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/8aa55182-7c91-4215-8760-106f822862fb" width=60% height=60% ><br>
+ <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/8aa55182-7c91-4215-8760-106f822862fb" width=50% height=50% ><br>
 図 3.1: 前処理, 黒の割合の求め方
 </p>
 
 ## 3.2.	後処理
 　[2]の出力画像に対して前処理後の画像の線に対応するように線の座標を調整する．<br>
 <p align="center">
- <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d8fa7dbf-95ae-4662-976f-ea7ad9a25e5f" width=60% height=60% ><br>
+ <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d8fa7dbf-95ae-4662-976f-ea7ad9a25e5f" width=50% height=50% ><br>
 図 3.2: 後処理, 座標 a から距離 n の求め方
 </p>
  
@@ -38,15 +38,15 @@ survey.pdf:<br>
 　全ての画像で前処理を施した方が負の差分が減少していた．また，アンケートでは， 全ての問で前処理を施した[2]の出力が最も多く選択された．
  処理時間の分散・平均の上昇量について，前処理は小さく，後処理は大きい．<br>
 <p align="center">
- <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d03fb9ac-8ab2-4dd2-9f19-9b3a124e59f9" width=50% height=50% ><br>
+ <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d03fb9ac-8ab2-4dd2-9f19-9b3a124e59f9" width=40% height=40% ><br>
  図 4.1: 取得した画像例
 </p>
 <p align="center">
- <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/0586c99c-fe92-4a7c-a3ad-562961c6959c" width=50% height=50% ><br>
+ <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/0586c99c-fe92-4a7c-a3ad-562961c6959c" width=40% height=40% ><br>
  図 4.2: 出力された画像の比較
 </p>
 <p align="center">
-<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/fea9702c-23b4-4e63-896e-f79960379e43" width=50% height=50% ><br>
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/fea9702c-23b4-4e63-896e-f79960379e43" width=40% height=40% ><br>
 図 4.3: 差分の求め方
 </p>
 <p align="center">
