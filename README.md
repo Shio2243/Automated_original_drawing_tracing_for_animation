@@ -33,9 +33,9 @@ survey.pdf:<br>
 ![図4](https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/0586c99c-fe92-4a7c-a3ad-562961c6959c)
 ![図5](https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/fea9702c-23b4-4e63-896e-f79960379e43)
 ![図6](https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/93e6d5af-6902-4d31-a2ee-efcd31bd46ad)
-![図7](https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/373d2c9a-609d-4478-9e52-08a1b29d09a9)
 # 5. 考察
 　負の差分の減少から[2]の出力単体よりも線の損失量が減少している．ただし，アンケートの結果から後処理の効果は小さいと見られる．また,処理時間の平均・分散から画像にサイズについて前処理は影響が小さく,後処理は大きいことがわかる.
+![図7](https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/373d2c9a-609d-4478-9e52-08a1b29d09a9)
 # 6. まとめと今後の課題
 　[2]のモデルに対応した前処理と後処理を提案し，[2]よりも良い結果となった．しかし，出力の不安定さ，精度に関して問題がまだ残っており，今後の課題に前処理の改善,より少ないストロークで画像生成するクリーンアップ処理モデルの作成を挙げる．
 # 参考文献
