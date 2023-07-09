@@ -26,10 +26,6 @@ survey.pdf:<br>
 <p align="center">
  <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/8aa55182-7c91-4215-8760-106f822862fb" width=50% height=50% ><br>
 図 3.1.1: 前処理, 黒の割合の求め方
-<p align="center">
-<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/f10a97a4-325c-4e0f-94b6-fc2cfca2dd64" width=40% height=40% ><br>
-図 3.1.2: 前処理の編集画面
-</p>
 
 ## 3.2.	後処理
 　[2]の出力画像に対して前処理後の画像の線に対応するように線の座標を調整する．<br>
@@ -39,12 +35,16 @@ survey.pdf:<br>
 </p>
 
 ## 3.3.	ソースコード
-getoutline_window.py
-
-rewritesvg.py
-	viewcolor.py
-	getsvgpath.py
-	findoptimal.py
+getoutline_window.py：入力画像の線を抽出する<br>
+　auto_binary.py：画像を二値化する<br>
+rewritesvg.py：<br>
+　viewcolor.py<br>
+　getsvgpath.py<br>
+　findoptimal.py<br>
+<p align="center">
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/f10a97a4-325c-4e0f-94b6-fc2cfca2dd64" width=40% height=40% ><br>
+図 3.3: getoutline_window.py実行時の編集画面
+</p>
  
 # 4. 実験
 ## 4.1. 実験手法
