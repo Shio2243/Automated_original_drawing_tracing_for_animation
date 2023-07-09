@@ -21,10 +21,13 @@ survey.pdf:<br>
 # 3．提案手法
 　本研究では[2]の研究の出力を安定させるための前処理，後処理手法を提案する．
 ## 3.1. 前処理
-　入力画像に二値フィルタ，メディアンフィルタを用いて前処理を行う．閾値やカーネルサイズは入力画像に対して最適化された値を利用する．<br>
+　入力画像に二値フィルタ，メディアンフィルタを用いて前処理を行う．閾値やカーネルサイズは入力画像に対して最適化された値を利用する．画像全体を前処理を行った後は、任意の箇所の閾値を調整できる.<br>
 <p align="center">
  <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/8aa55182-7c91-4215-8760-106f822862fb" width=50% height=50% ><br>
-図 3.1: 前処理, 黒の割合の求め方
+図 3.1.1: 前処理, 黒の割合の求め方
+<p align="center">
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/f10a97a4-325c-4e0f-94b6-fc2cfca2dd64" width=40% height=40% ><br>
+図 3.1.2: 前処理の編集画面
 </p>
 
 ## 3.2.	後処理
