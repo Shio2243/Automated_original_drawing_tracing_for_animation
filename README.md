@@ -37,7 +37,7 @@ survey.pdf:<br>
 ## 3.3.	ソースコード
 getoutline_window.py：入力画像の線を抽出する<br>
 　auto_binary.py：画像を二値化する<br>
-先行研究[2]でベクター画像に変換
+先行研究[2]でベクター画像に変換<br>
 rewritesvg.py：入力画像と出力画像を比較して修正<br>
 　viewcolor.py：背景色確認<br>
 　getsvgpath.py：ベクター画像の曲線座標取得<br>
