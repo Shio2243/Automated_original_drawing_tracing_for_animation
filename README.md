@@ -1,4 +1,5 @@
 # Automated_original_drawing_tracing_for_animation
+アニメーションの原画トレースの自動化に関する研究
 # リンク
 情報処理学会<br>
 https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=217855&item_no=1&page_id=13&block_id=8
