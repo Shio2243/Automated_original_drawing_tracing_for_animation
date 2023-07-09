@@ -49,17 +49,25 @@ rewritesvg.py：入力画像と出力画像を比較して修正<br>
  
 # 4. 実験
 ## 4.1. 実験手法
-　実験素材には3種類の大きさの12種類のイラストを使用して，[2]の出力，前処理を施した[2]の出力，前処理と後処理を施した[2]の出力の3種類の結果を取得した．提案手法の結果から手書きトレースとの類似性を確かめるために差分値を求め，前処理，後処理の有効性を確かめるために13人に対してアンケートを行った．また，前処理，後処理に要した時間も取得した．
+　実験素材には3種類の大きさの12種類のイラストを使用して，[2]の出力，前処理を施した[2]の出力，前処理と後処理を施した[2]の出力の3種類の結果を取得した．提案手法の結果から手書きトレースとの類似性を確かめるために差分値を求め，前処理，後処理の有効性を確かめるために13人に対してアンケートを行った．また，前処理，後処理に要した時間も取得した．<br>
+<p align="center">
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/blob/main/input_images/320/tabby320.png" width=20% height=20% >
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/blob/main/input_images/320/bird320.png" width=20% height=20% >
+<img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/blob/main/input_images/320/woman320.png" width=20% height=20% >
+<br>
+図 4.1: 入力画像例
+</p>
+
 ## 4.2. 実験結果
 　全ての画像で前処理を施した方が負の差分が減少していた．また，アンケートでは， 全ての問で前処理を施した[2]の出力が最も多く選択された．
  処理時間の分散・平均の上昇量について，前処理は小さく，後処理は大きい．<br>
 <p align="center">
  <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d03fb9ac-8ab2-4dd2-9f19-9b3a124e59f9" width=40% height=40% ><br>
- 図 4.1: 取得した画像例
+ 図 4.2.1: 取得した画像例
 </p>
 <p align="center">
  <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/0586c99c-fe92-4a7c-a3ad-562961c6959c" width=40% height=40% ><br>
- 図 4.2: 出力された画像の比較
+ 図 4.2.2: 出力された画像の比較
 </p>
 <p align="center">
 <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/fea9702c-23b4-4e63-896e-f79960379e43" width=40% height=40% ><br>
