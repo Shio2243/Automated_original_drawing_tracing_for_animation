@@ -37,10 +37,11 @@ survey.pdf:<br>
 ## 3.3.	ソースコード
 getoutline_window.py：入力画像の線を抽出する<br>
 　auto_binary.py：画像を二値化する<br>
-rewritesvg.py：<br>
-　viewcolor.py<br>
-　getsvgpath.py<br>
-　findoptimal.py<br>
+先行研究[2]でベクター画像に変換
+rewritesvg.py：入力画像と出力画像を比較して修正<br>
+　viewcolor.py：背景色確認<br>
+　getsvgpath.py：ベクター画像の曲線座標取得<br>
+　findoptimal.py：曲線の修正<br>
 <p align="center">
 <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/f10a97a4-325c-4e0f-94b6-fc2cfca2dd64" width=40% height=40% ><br>
 図 3.3: getoutline_window.py実行時の編集画面
