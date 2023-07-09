@@ -37,6 +37,14 @@ survey.pdf:<br>
  <img src="https://github.com/Shio2243/Automated_original_drawing_tracing_for_animation/assets/87845176/d8fa7dbf-95ae-4662-976f-ea7ad9a25e5f" width=50% height=50% ><br>
 図 3.2: 後処理, 座標 a から距離 n の求め方
 </p>
+
+## 3.3.	ソースコード
+getoutline_window.py
+
+rewritesvg.py
+	viewcolor.py
+	getsvgpath.py
+	findoptimal.py
  
 # 4. 実験
 ## 4.1. 実験手法
